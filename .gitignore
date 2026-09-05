@@ -1,0 +1,24 @@
+# Build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Model weights and datasets
+/models/*.gguf
+/models/*.bin
+*.gguf
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs and runtime files
+*.log
+/scratch/
+/nohup.out
+
+# OS specific files
+.DS_Store
+Thumbs.db
